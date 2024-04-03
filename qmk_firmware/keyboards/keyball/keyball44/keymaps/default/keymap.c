@@ -70,3 +70,7 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
+
+void pointing_device_init_user(void) {
+    keyball_set_aml_enabled(true);
+}
